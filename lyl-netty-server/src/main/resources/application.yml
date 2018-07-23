@@ -1,0 +1,4 @@
+netty:
+  port: 21992
+server:
+  port: 8888
