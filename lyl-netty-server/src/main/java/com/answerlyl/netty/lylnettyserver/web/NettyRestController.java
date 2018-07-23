@@ -61,6 +61,7 @@ public class NettyRestController {
         JsonResult r = new JsonResult();
         try {
             r.setResult("hehe");
+            r.setStatusCode("200");
             r.setStatus("ok");
         } catch (Exception e) {
             r.setResult(e.getClass().getName() + ":" + e.getMessage());
